@@ -1,0 +1,37 @@
+@import "../../styles/screen_brakpoints.module";
+.about {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 30px;
+  flex-grow: 1;
+  &__title::after,
+  &__title::before {
+    content: "";
+    width: 44px;
+    height: 3px;
+    border-radius: 50px;
+    background-color: var(--main-color);
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+  }
+  &__title::before {
+    width: 22px;
+    bottom: -10px;
+  }
+  &__title {
+    color: var(--main-color);
+    position: relative;
+    margin-bottom: 30px;
+  }
+  &__container {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+  }
+}
+@media ($lg-screen) {
+  .about__container {
+    flex-direction: row;
+  }
+}

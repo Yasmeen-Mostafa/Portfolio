@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+p,
+h1,
+h2,
+span,
+a {
+  color: var(--sec-color);
+}
+body,
+#root {
+  display: flex;
+  flex-direction: column;
+}
+html {
+  --main-color: #555755;
+  --sec-color: #868a86;
+  --light-pink-color: #fffbf8;
+  --pink-color: #f2b1a6;
+}
+body {
+  min-height: 100vh;
+  font-family: "Courier Prime", monospace;
+  padding: 3% 4%;
+  background: linear-gradient(
+    355deg,
+    rgba(242, 177, 166, 1) 0%,
+    rgba(85, 87, 85, 1) 100%
+  );
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+// #fdfaf8

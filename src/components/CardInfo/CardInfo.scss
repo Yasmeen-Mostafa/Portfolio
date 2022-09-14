@@ -1,0 +1,12 @@
+.card__info {
+  display: flex;
+  margin: 10px 0;
+  .card__icon,
+  span {
+    color: var(--main-color);
+  }
+  .card__icon {
+    margin-right: 10px;
+    font-size: 0.87rem;
+  }
+}

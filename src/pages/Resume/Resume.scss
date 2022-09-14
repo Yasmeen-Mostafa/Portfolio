@@ -1,0 +1,35 @@
+.resume {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  padding: 40px 30px;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+  &__title::after,
+  &__title::before {
+    content: "";
+    width: 44px;
+    height: 3px;
+    border-radius: 50px;
+    background-color: var(--main-color);
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+  }
+  &__title::before {
+    width: 22px;
+    bottom: -10px;
+  }
+  &__title {
+    color: var(--main-color);
+    position: relative;
+    margin-bottom: 30px;
+  }
+}
