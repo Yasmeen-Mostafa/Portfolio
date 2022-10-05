@@ -12,7 +12,7 @@ const ResumeExperience = (props) => {
           <div className="small__circle"></div>
         </div>
         <div className="line">
-          <hr />
+          <div className="horizontal__line"></div>
         </div>
       </div>
       <div className="resume__right">
