@@ -1,8 +1,6 @@
-import React, { useState } from "react";
-import ContactForm from "../../components/ContactForm/ContactForm";
-import Result from "../../components/Result/Result";
-import "./ContactMe.scss";
-
+import { useState } from "react";
+import ContactForm from "./Components/ContactForm/ContactForm";
+import Result from "./Components/Result/Result";
 const ContactMe = () => {
   const [result, setResult] = useState(null);
   return (

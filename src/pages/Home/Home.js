@@ -1,7 +1,6 @@
-import React from "react";
 import "./Home.scss";
 import profile from "../../assets/Images/Yasmeen.png";
-import resume from "../../assets/Yasmeen Mostafa Resume.pdf";
+import resume from "../../assets/Documents/Yasmeen Mostafa Resume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 const Home = () => {

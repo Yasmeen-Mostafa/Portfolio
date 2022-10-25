@@ -1,8 +1,7 @@
-import React from "react";
 import "./About.scss";
-import AboutSummary from "../../components/AboutSummary/AboutSummary";
-import AboutInfo from "../../components/AboutInfo/AboutInfo";
-import AboutSkills from "../../components/AboutSkills/AboutSkills";
+import AboutSummary from "./Components/AboutSummary/AboutSummary";
+import AboutInfo from "./Components/AboutInfo/AboutInfo";
+import AboutSkills from "./Components/AboutSkills/AboutSkills";
 const About = () => {
   return (
     <section className="about">
