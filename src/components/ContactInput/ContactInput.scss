@@ -3,14 +3,16 @@ textarea {
   background-color: #f9f4f0;
   border: 1px solid transparent;
   border-radius: 10px;
-  margin: 10px 0;
+  margin: 13px 0;
   padding: 10px;
   width: 100%;
 }
-input:focus-visible {
+input:focus-visible,
+textarea:focus-visible {
   outline: none;
 }
-input:focus {
+input:focus,
+textarea:focus {
   border: 2px solid var(--pink-color);
 }
 label {
