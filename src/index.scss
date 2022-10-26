@@ -38,6 +38,12 @@ body {
     text-decoration: none;
     color: inherit;
   }
+  ::-moz-selection {
+    /* Code for Firefox */
+    color: var(--light-pink-color);
+    background: var(--pink-color);
+  }
+
   ::selection {
     color: var(--light-pink-color);
     background: var(--pink-color);
