@@ -52,7 +52,6 @@ form {
 }
 @media ($sm-screen) {
   .contact-me__container {
-    // flex-direction: row;
     figure {
       margin: auto;
       width: 45%;
@@ -65,13 +64,15 @@ form {
   }
   .contact-me__container {
     flex-direction: row;
+    animation-delay: 2s;
     figure {
       width: 33%;
     }
   }
-  form {
+  .form {
     width: 50%;
     margin-top: 0;
+    animation-delay: 1s;
   }
   ::placeholder {
     /* Chrome, Firefox, Opera, Safari 10.1+ */

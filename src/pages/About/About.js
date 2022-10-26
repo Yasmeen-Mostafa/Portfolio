@@ -14,3 +14,4 @@ const About = () => {
   );
 };
 export default About;
+//animate__animated animate__zoomIn

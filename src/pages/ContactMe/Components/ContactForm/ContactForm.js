@@ -34,13 +34,15 @@ const ContactForm = ({ setResult }) => {
   };
   return (
     <div className="contact-me">
-      <h1 className="contact-me__title">Have a project! let's discuss</h1>
-      <div className="contact-me__container">
+      <h1 className="contact-me__title animate__animated animate__fadeInDown">
+        Have a project! let's discuss
+      </h1>
+      <div className="contact-me__container animate__animated animate__fadeIn">
         <figure>
           <img src={discuss}></img>
         </figure>
 
-        <form onSubmit={handleSubmit(onSubmit)}>
+        <form className="form" onSubmit={handleSubmit(onSubmit)}>
           <ContactInput
             type="text"
             placeholder="e.g: John Smith"

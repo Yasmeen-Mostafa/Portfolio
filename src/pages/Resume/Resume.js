@@ -4,8 +4,10 @@ import education from "../../config/db/experience";
 const Resume = () => {
   return (
     <section className="resume">
-      <h2 className="resume__title">Education</h2>
-      <div className="resume__container">
+      <h2 className="resume__title animate__animated animate__fadeInDown">
+        Education
+      </h2>
+      <div className="resume__container ">
         {education.map((e, i) => (
           <ResumeExperience experience={e} key={i} />
         ))}

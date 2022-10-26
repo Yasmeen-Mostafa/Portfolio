@@ -38,4 +38,8 @@ body {
     text-decoration: none;
     color: inherit;
   }
+  ::selection {
+    color: var(--light-pink-color);
+    background: var(--pink-color);
+  }
 }

@@ -4,6 +4,7 @@
   flex-direction: column;
   padding: 40px 30px;
   flex-grow: 1;
+  animation-duration: 1s;
   &__title::after,
   &__title::before {
     content: "";

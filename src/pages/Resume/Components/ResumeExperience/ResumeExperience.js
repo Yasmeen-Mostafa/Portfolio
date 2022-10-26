@@ -2,7 +2,7 @@ import "./ResumeExperience.scss";
 const ResumeExperience = (props) => {
   return (
     <div className="resume__experience">
-      <div className="resume__left">
+      <div className="resume__left animate__animated animate__fadeInLeft">
         <h3 className="resume__location">{props.experience.location}</h3>
         <p className="details">{props.experience.date}</p>
       </div>
@@ -14,7 +14,7 @@ const ResumeExperience = (props) => {
           <div className="horizontal__line"></div>
         </div>
       </div>
-      <div className="resume__right">
+      <div className="resume__right animate__animated animate__fadeInRight">
         <h3 className="resume__position">{props.experience.position}</h3>
         {/* <p className="details">{props.experience.details}</p> */}
         {props.experience.details.map((e, i) => (

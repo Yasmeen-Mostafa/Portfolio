@@ -4,7 +4,14 @@
   flex-grow: 1;
   align-items: center;
   margin: 0 auto;
-
+  position: relative;
+  .dots {
+    font-size: 0.5rem;
+    color: var(--pink-color);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
   &__details {
     width: 50%;
     display: flex;
@@ -12,11 +19,14 @@
     justify-content: end;
     h1 {
       font-size: 4rem;
-      color: var(--main-color);
+      color: var(--light-pink-color);
       font-weight: 400;
       position: absolute;
+      -webkit-text-stroke: 0.1vw var(--main-color);
+      // text-transform: uppercase;
       left: -35px;
       bottom: 100%;
+      animation-duration: 2s;
     }
   }
   &__position {
@@ -26,8 +36,10 @@
     border-left: 3px solid var(--main-color);
     padding-left: 15px;
     margin-top: 30px;
+    animation-duration: 3s;
     span {
       color: var(--pink-color);
+
       font-weight: 700;
     }
 

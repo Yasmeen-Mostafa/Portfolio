@@ -1,7 +1,7 @@
 import "./AboutSummary.scss";
 const AboutSummary = () => {
   return (
-    <div>
+    <div className="animate__animated animate__slideInDown">
       <h2 className="about__title">Summary</h2>
       <p>
         Innovative Front End Developer experienced in building and maintaining

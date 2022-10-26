@@ -8,7 +8,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 const AboutInfo = () => {
   return (
-    <div className="about__info">
+    <div className="about__info animate__animated animate__fadeInDown">
       <h2 className="about__title">Personal Info</h2>
       <CardInfo icon={faUser} header="Name" text="Yasmeen Mostafa Mohamed" />
       <CardInfo
