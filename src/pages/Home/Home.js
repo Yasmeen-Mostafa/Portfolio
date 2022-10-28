@@ -18,7 +18,6 @@ const Home = () => {
               <br />
               World!
             </h1>
-
             <div className="home__text animate__animated animate__fadeInDown">
               <p>
                 I'm <span>Yasmeen Mostafa</span>, frontend web developer
