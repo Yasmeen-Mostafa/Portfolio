@@ -1,5 +1,5 @@
 import "./Home.scss";
-import profile from "../../assets/Images/Yasmeen.png";
+import profile from "../../assets/Images/Yasmeen.jpg";
 import resume from "../../assets/Documents/Yasmeen Mostafa Resume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown, faBraille } from "@fortawesome/free-solid-svg-icons";
@@ -7,9 +7,6 @@ import { faCircle } from "@fortawesome/free-regular-svg-icons";
 const Home = () => {
   return (
     <div className="home">
-      <div className="dots">
-        <FontAwesomeIcon icon={faCircle} />
-      </div>
       <div className="home__container">
         <figure>
           <img src={profile} />
