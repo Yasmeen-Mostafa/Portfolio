@@ -4,7 +4,7 @@
   display: flex;
   flex-grow: 1;
   flex-direction: column;
-  padding: 40px 30px;
+  padding: 40px 20px;
 
   &__container {
     display: flex;
@@ -19,22 +19,37 @@
   &__title::after,
   &__title::before {
     content: "";
+
     width: 44px;
     height: 3px;
     border-radius: 50px;
     background-color: var(--main-color);
     position: absolute;
     bottom: -3px;
-    left: 0;
+    left: calc(53.5% - 44px);
+    right: 0;
   }
   &__title::before {
     width: 22px;
     bottom: -10px;
+    left: calc(53.5% - 33px);
   }
   &__title {
+    text-align: center;
     color: var(--main-color);
     position: relative;
     margin-bottom: 30px;
+  }
+}
+@media ($md-screen) {
+  .resume {
+    &__title {
+      text-align: start;
+    }
+    &__title::after,
+    &__title::before {
+      left: 0;
+    }
   }
 }
 @media ($lg-screen) {

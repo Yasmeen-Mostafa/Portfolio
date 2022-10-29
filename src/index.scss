@@ -25,6 +25,9 @@ html {
   --light-pink-color: #fffbf8;
   --pink-color: #f2b1a6;
 }
+#root {
+  position: relative;
+}
 body {
   min-height: 100vh;
   font-family: "Courier Prime", monospace;

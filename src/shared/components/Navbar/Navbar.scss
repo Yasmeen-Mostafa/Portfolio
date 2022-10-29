@@ -1,10 +1,19 @@
+@import "../../../assets/scss/screen_brakpoints.module";
 nav {
+  position: absolute;
+  z-index: 10;
+  height: 100%;
+  top: 0;
+  bottom: 0;
   width: fit-content;
   display: flex;
   flex-direction: column;
-  background-color: transparent;
+  // background-color: var(--light-pink-color);
   color: #555755;
   border-radius: 30px 0 0 30px;
+  .nav__container {
+    margin-top: 3rem;
+  }
   button {
     background-color: transparent;
     border: none;
@@ -14,9 +23,24 @@ nav {
     color: #555755;
     width: 55px;
     height: 55px;
+    display: block;
   }
   button:focus {
     border: 3px solid #f2b1a6;
     border-radius: 10px;
+  }
+}
+
+@media ($md-screen) {
+  nav {
+    height: auto;
+    position: static;
+    background-color: transparent !important;
+    .nav__container {
+      margin-top: 0;
+    }
+    button {
+      display: none;
+    }
   }
 }

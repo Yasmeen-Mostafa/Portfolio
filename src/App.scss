@@ -1,3 +1,4 @@
+@import "./assets/scss/screen_brakpoints.module";
 #root {
   width: 100%;
   display: flex;
@@ -10,6 +11,7 @@
   position: relative;
 }
 main {
+  // margin-top: 3rem;
   min-height: 100%;
   display: flex;
   flex-grow: 1;

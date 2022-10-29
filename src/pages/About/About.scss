@@ -14,13 +14,15 @@
     background-color: var(--main-color);
     position: absolute;
     bottom: -3px;
-    left: 0;
+    left: calc(53.5% - 44px);
   }
   &__title::before {
     width: 22px;
     bottom: -10px;
+    left: calc(53.5% - 33px);
   }
   &__title {
+    text-align: center;
     color: var(--main-color);
     position: relative;
     margin-bottom: 30px;
@@ -29,6 +31,17 @@
     display: flex;
     margin-top: 40px;
     flex-direction: column;
+  }
+}
+@media ($md-screen) {
+  .about {
+    &__title {
+      text-align: start;
+    }
+    &__title::after,
+    &__title::before {
+      left: 0;
+    }
   }
 }
 @media ($lg-screen) {
