@@ -90,45 +90,73 @@
   .home {
     justify-content: center;
     align-items: center;
+    padding: 4%;
     &__container {
       width: 100%;
-      height: 70%;
+      // height: 70%;
+      align-items: stretch;
       flex-grow: 0;
-      justify-content: center;
-      margin: auto;
+      // justify-content: center;
+      // margin: auto;
+      gap: 2rem;
       flex-direction: row; //new
       figure {
-        width: 60%;
-        height: 100%;
-        margin-right: 60px;
+        // width: 60%;
+        // height: 80%;
+        // margin-right: 60px;
       }
     }
     &__details {
       width: 50%;
-      height: 100%;
+      // height: 100%;
       justify-content: flex-end !important;
       h1 {
         position: absolute;
       }
     }
-  }
-  &__text {
-    //new
-    margin-top: 30px;
-    margin-bottom: 0;
+    &__text {
+      //new
+      // margin-top: 30px;
+      margin-bottom: 0;
+    }
   }
 }
 
 @media ($lg-screen) {
   .home {
+    &__text {
+      margin-bottom: 0;
+    }
     &__container {
-      width: 80%;
-      height: 80%;
+      // width: 80%;
+      // height: 80%;
+      figure {
+        ///////////////new
+        // width: 100%;
+        // height: 100%;
+      }
     }
     &__details {
       h1 {
         font-size: 4rem;
       }
+    }
+  }
+}
+@media ($xl-screen) {
+  .home {
+    &__container {
+      width: 90%;
+    }
+  }
+}
+@media ($xxl-screen) {
+  .home {
+    &__container {
+      width: 80%;
+    }
+    &__text {
+      margin-bottom: 60px;
     }
   }
 }

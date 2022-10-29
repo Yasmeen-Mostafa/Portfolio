@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className="home">
       <div className="home__container">
-        <figure>
+        <figure className="animate__animated animate__fadeIn">
           <img src={profile} />
         </figure>
         <div className="home__details">
