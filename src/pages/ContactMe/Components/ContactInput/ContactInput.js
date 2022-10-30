@@ -12,6 +12,7 @@ const ContactInput = ({ label, placeholder, type, validations, register }) => {
     <>
       <label>{label}</label>
       <input
+        autoFocus={label === "Full Name" ? true : false}
         placeholder={placeholder}
         type={type}
         {...register(label, validations)}

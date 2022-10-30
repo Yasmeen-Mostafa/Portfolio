@@ -17,7 +17,7 @@ const Navbar = () => {
     window.addEventListener("resize", handleWidthChange);
   }, []);
   useEffect(() => {
-    if (window.innerWidth > 768) {
+    if (window.innerWidth >= 768) {
       console.log("p");
       setLargeScreen(true);
     }
