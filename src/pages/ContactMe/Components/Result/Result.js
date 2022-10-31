@@ -7,6 +7,7 @@ const Result = ({ result }) => {
       <figure className="result__img">
         <img src={result ? success : failed} />
       </figure>
+
       <p>
         {result
           ? "Thanks for contacting me, I will reply ASAP!"

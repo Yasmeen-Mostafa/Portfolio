@@ -13,7 +13,7 @@ const education = [
     position: "B.Sc. Degree In Computer and Communication Engineering",
     details: [
       " Graduated with overall 2.6 GPA.",
-      " Graduation Project: COVID-19 Nurse Robot",
+      " Graduation Project: COVID-19 Nurse Robot.",
       " Project Grade: Excellant",
     ],
   },

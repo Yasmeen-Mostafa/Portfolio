@@ -16,10 +16,10 @@ const ContactForm = ({ setResult }) => {
         "service_wbc2099",
         "template_qygj6nl",
         {
-          from_name: inputs.Name,
+          from_name: inputs["Full Name"],
           from_email: inputs.Email,
           from_phone: inputs.Phone,
-          message: inputs.Description,
+          message: inputs.Message,
         },
         "g-1CcXqYnn2AP71DO"
       )
@@ -39,7 +39,7 @@ const ContactForm = ({ setResult }) => {
       </h1>
       <div className="contact-me__container animate__animated animate__fadeIn">
         <figure>
-          <img src={discuss}></img>
+          <img src={discuss} />
         </figure>
 
         <form className="form" onSubmit={handleSubmit(onSubmit)}>

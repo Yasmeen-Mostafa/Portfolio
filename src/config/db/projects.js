@@ -20,7 +20,7 @@ const projectsData = [
     title: "Happy Paws",
     description:
       "Angular pet platform application with all services and supplies for all pet owners.",
-    link: "https://karim-mamdouh.github.io/Happy-Paws/",
+    link: "https://yasmeen-mostafa.github.io/Happy-Paws/",
     repo: "https://github.com/Yasmeen-Mostafa/Happy-Paws",
     technologies: [
       angular,
@@ -39,7 +39,7 @@ const projectsData = [
     title: "Yummy Taste",
     description:
       "Angular application that has food recipes categorized where the user can view and save favoured recipes.",
-    link: "https://karim-mamdouh.github.io/Yummy-Taste-Angular/",
+    link: "https://yasmeen-mostafa.github.io/Yummy-Taste-Angular/",
     repo: "https://github.com/Yasmeen-Mostafa/Yummy-Taste-Angular",
     technologies: [
       angular,
@@ -55,7 +55,7 @@ const projectsData = [
   {
     img: noiceland,
     title: "NOICELAND",
-    description: "Simple landing page.",
+    description: "Responsive landing page.",
     link: "https://yasmeen-mostafa.github.io/NOICELAND-BLOG-TEMPLATE/",
     repo: "https://github.com/Yasmeen-Mostafa/NOICELAND-BLOG-TEMPLATE",
     technologies: [html, css, bootstrap],
@@ -63,7 +63,7 @@ const projectsData = [
   {
     img: personal,
     title: "Personal",
-    description: "Simple landing page.",
+    description: "Responsive landing page.",
     link: "https://yasmeen-mostafa.github.io/Portifolio-Landing-Page/",
     repo: "https://github.com/Yasmeen-Mostafa/Portifolio-Landing-Page",
     technologies: [html, css, bootstrap],
