@@ -4,7 +4,6 @@
   display: flex;
   max-width: 100%;
   flex-direction: row;
-  // background-color: rgb(251, 248, 248);
   background-color: white;
   flex-grow: 1;
   margin: 0 auto;
@@ -12,10 +11,9 @@
   position: relative;
 }
 main {
-  // margin-top: 3rem;
   min-height: 100%;
-  max-width: 100%; //new
-  overflow: hidden; //////////new
+  max-width: 100%;
+  overflow: hidden;
   display: flex;
   flex-grow: 1;
   flex-direction: column;

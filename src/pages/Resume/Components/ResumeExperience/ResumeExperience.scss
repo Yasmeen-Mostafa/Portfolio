@@ -1,5 +1,4 @@
 @import "../../../../assets/scss/screen_brakpoints.module";
-
 .resume__experience {
   width: 100%;
   display: flex;
@@ -17,7 +16,6 @@
     h3 {
       order: 2;
       color: var(--sec-color);
-
       font-size: 0.8rem;
     }
     p {
@@ -41,7 +39,6 @@
     font-size: 0.8rem;
   }
 }
-
 .resume__shape {
   display: flex;
   order: 1;
@@ -54,8 +51,6 @@
     border: 1px dashed var(--main-color);
     width: 20px;
     height: 20px;
-    //   margin-right: 30px;
-
     .small__circle {
       border-radius: 50% 50%;
       width: 70%;
@@ -72,7 +67,6 @@
     overflow-y: visible;
     .horizontal__line {
       height: calc(100% - 20px);
-
       border-left: 1px dashed var(--main-color);
       position: absolute;
       top: 20px;

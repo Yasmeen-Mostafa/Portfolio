@@ -7,26 +7,11 @@
     padding: 15px 20px;
     margin: 14px 0;
   }
-
   li {
     list-style: none;
   }
-}
-.animate-large {
-  animation-name: largeNav;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-}
-.active {
-  color: var(--pink-color) !important;
-  font-weight: 700;
-}
-@keyframes largeNav {
-  from {
-    opacity: 0;
-  }
-  to {
-    width: 200px;
-    opacity: 1;
+  .active {
+    color: var(--pink-color) !important;
+    font-weight: 700;
   }
 }

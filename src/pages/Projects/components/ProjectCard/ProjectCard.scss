@@ -4,7 +4,6 @@
   display: flex;
   margin: 0 20px;
   flex-direction: column;
-  // justify-content: space-between;
   .card__description {
     flex-grow: 1;
   }
@@ -15,9 +14,6 @@
     max-width: 100%;
     max-height: 100%;
   }
-  // .card__img:hover {
-  //   transform: scale(1.1);
-  // }
   a {
     h2 {
       margin-top: 15px;
@@ -44,8 +40,7 @@
 }
 .card__container:hover {
   border: 1px solid transparent;
-  // background-color: var(--light-pink-color);
   border-radius: 20px;
-  transform: translateY(-1.5rem);
+  transform: translateY(-1.4rem);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }

@@ -16,7 +16,6 @@ const ResumeExperience = (props) => {
       </div>
       <div className="resume__right animate__animated animate__fadeInRight">
         <h3 className="resume__position">{props.experience.position}</h3>
-        {/* <p className="details">{props.experience.details}</p> */}
         {props.experience.details.map((e, i) => (
           <p key={i}>{e}</p>
         ))}
