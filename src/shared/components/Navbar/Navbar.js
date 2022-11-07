@@ -18,7 +18,6 @@ const Navbar = () => {
   }, []);
   useEffect(() => {
     if (window.innerWidth >= 768) {
-      console.log("p");
       setLargeScreen(true);
     }
   }, []);
@@ -40,15 +39,13 @@ const Navbar = () => {
       <button onClick={animate}>
         <FontAwesomeIcon icon={faBars} />
       </button>
-      {largeScreen && <NavbarIcons addAnimation={addAnimation}></NavbarIcons>}
+      {largeScreen && <NavbarIcons addAnimation={addAnimation} />}
       <div className="nav__container">
         {largeScreen ? (
           <></>
         ) : (
-          expandNav && <NavbarText addAnimation={addAnimation}></NavbarText>
+          expandNav && <NavbarText addAnimation={addAnimation} />
         )}
-
-        {/* {expandNav && <NavbarIcons addAnimation={addAnimation}></NavbarIcons>} */}
       </div>
     </nav>
   );

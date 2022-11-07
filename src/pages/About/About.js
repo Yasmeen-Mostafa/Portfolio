@@ -5,10 +5,10 @@ import AboutSkills from "./Components/AboutSkills/AboutSkills";
 const About = () => {
   return (
     <section className="about">
-      <AboutSummary></AboutSummary>
+      <AboutSummary />
       <div className="about__container">
-        <AboutInfo></AboutInfo>
-        <AboutSkills></AboutSkills>
+        <AboutInfo />
+        <AboutSkills />
       </div>
     </section>
   );
