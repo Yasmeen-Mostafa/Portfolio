@@ -44,7 +44,6 @@ const ContactForm = ({ setResult }) => {
 
         <form className="form" onSubmit={handleSubmit(onSubmit)}>
           <ContactInput
-            autoFocus={true}
             type="text"
             placeholder="e.g: John Smith"
             label="Full Name"
